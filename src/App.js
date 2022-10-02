@@ -3,6 +3,7 @@ import './App.css';
 import Navbar from './componants/Navbar/Navbar';
 import Pricing from './componants/Pricing/Pricing';
 import AssignmentMarks from './componants/AssignmentMarks/AssignmentMarks';
+import PhoneBar from './componants/PhoneBar/PhoneBar';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <p>This is just a paragraph.</p>
       <Pricing></Pricing>
       <AssignmentMarks></AssignmentMarks>
+      <PhoneBar></PhoneBar>
     </div>
   );
 }
